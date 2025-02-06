@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+
+{% block title %}About Us | {% endblock title %}
+
+{% block body %}
+
+<style>
+    /* Main content area styling */
+    body {
+        
+        background-image: url("static/s4.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-content {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    /* Content container styling */
+    .content-container {
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+        padding: 30px;
+        max-width: 700px;
+        width: 100%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.5);
+        text-align: left;
+        color: white;
+    }
+
+    /* Styling for main title */
+    .about-title {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /* Styling for subheadings */
+    .subheading {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: #ffcc00;
+    }
+
+    /* Styling for paragraphs */
+    p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+</style>
+
+<main class="body-content">
+    <div class="content-container">
+        <h1 class="about-title">ABOUT US !</h1>
+        
+        <h2 class="subheading">Discover Your Perfect Laptop with LapTrendz</h2>
+        <p>Welcome to LapTrendz – Your Ultimate Laptop Price Predictor! 
+            We simplify the process of finding the perfect laptop by providing personalized price predictions based 
+            on your needs and preferences.</p>
+        
+        <h2 class="subheading">Our Mission</h2>
+        <p>We believe in making technology accessible and affordable. Our goal is to 
+            help individuals and businesses make informed decisions by offering accurate
+             price insights and expert-driven recommendations.</p>
+        
+        <h2 class="subheading">Why Choose Us?</h2>
+        <ul>
+            <li> <bold>Smart Predictions --  Get estimated laptop prices based on real-time trends</li>
+            <li>Tailored Recommendations -- Find the best options that match your requirements</li>
+            <li>User-Friendly Experience -- Designed for effortless navigation and quick results</li>
+        </ul>
+        <h2 class="subheading">Get Started Today!</h2>
+        <p>Ready to find the best laptop for your budget? Try our prediction model now and make a smarter choice!</p>
+    </div>
+</main>
+
+{% endblock body %}
