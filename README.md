@@ -1,7 +1,7 @@
 # Laptop_Price_Predictor
 "This project focuses on building a machine learning-based web application to predict laptop prices based on various specifications. The application utilizes Random forest regression models, optimized for key laptop features such as processor, RAM, storage, GPU, and brand. This system helps users make informed decisions when purchasing laptops by providing accurate price estimates."
 
-#Features
+# Features
 Dataset: The dataset was curated from Kaggle, including diverse laptop specifications from multiple brands (Dell, HP, Apple, Asus, Lenovo, etc.), ensuring comprehensive insights for accurate predictions.
 
 Machine Learning Model: Random forest regression models are employed for feature selection and regularization, minimizing overfitting and improving prediction accuracy.
@@ -17,7 +17,7 @@ Brand and Specification Support: Allows users to select key laptop attributes (b
 
 Data Visualization: Key insights, such as price trends and laptop specifications' impact on price, are presented through interactive graphs and charts.
 
-#How It Works
+# How It Works
 Users provide laptop specifications through an intuitive form on the web application.
 
 The application processes the data and passes it to the corresponding trained Lasso or Ridge regression model.
@@ -26,21 +26,21 @@ The model returns the predicted laptop price, displayed in a user-friendly forma
 
 Visual aids help users understand the factors influencing the prediction.
 
-#Technology Stack
+# Technology Stack
 Frontend: HTML, CSS, JavaScript
 
 Backend: Django
 
 Machine Learning Models: Random forest Regression
 
-#Requirements for the Project
+# Requirements for the Project
 Software Dependencies
 
 Django Framework Version: 4.x or higher (Leverages modern Django features like class-based views and enhanced ORM capabilities).
 
 Python Version: 3.10 or higher (Ensures compatibility with advanced libraries and features).
 
-#Libraries Required
+# Libraries Required
 NumPy: >=1.21.0 → For numerical operations in regression models.
 
 pandas: >=1.3.0 → For data manipulation and preprocessing.
